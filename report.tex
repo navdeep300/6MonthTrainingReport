@@ -1,0 +1,76 @@
+\documentclass[12pt]{report}
+\usepackage[print,nopanel]{pdfscreen}
+\begin{print}
+\usepackage{lipsum}% http://ctan.org/pkg/lipsum
+\usepackage{titletoc}% http://ctan.org/pkg/titletoc
+\usepackage{lastpage}
+\usepackage{macro/macro}
+\usepackage{float}
+\usepackage{wrapfig}
+\usepackage{fancyhdr}
+\usepackage{verbatim}
+%Options: Sonny, Lenny, Glenn, Conny, Rejne, Bjarne, Bjornstrup
+\usepackage[Glenn]{fncychap}
+\lhead{\large\bfseries Elearning System}
+\usepackage[left=2.5cm, right=1.5cm, top=2.5cm, bottom=1.5cm]{geometry}
+\pagestyle{fancy}
+\end{print}
+\margins{.5cm}{.5cm}{.5cm}{.5cm}
+\begin{screen}
+
+\renewcommand{\encodingdefault}{T1}
+\usepackage{setspace}
+\linespread{1.5}
+\renewcommand{\rmdefault}{ptm}
+\end{screen}
+\screensize{8cm}{9cm}
+\overlay{overlay8.pdf}
+\usepackage{graphicx}
+
+\begin{document}
+\input{input/titlepage.tex}
+\begin{screen}
+\ppttitle
+\end{screen}
+\footskip 0.7cm
+\thispagestyle{empty} 
+\pagetitle
+\newpage
+\pagenumbering{Roman}
+\cfoot{\thepage}
+
+\input{input/acknowledgement.tex}
+\newpage
+
+\input{input/abstract.tex}
+
+\newpage
+\tableofcontents
+\newpage
+\listoffigures
+\newpage
+
+\pagenumbering{arabic}
+\cfoot{\thepage}
+
+\newpage
+\chapter{Introduction To Organisation}
+\input{input/organisation.tex}
+\newpage
+\chapter{\LaTeX}
+\input{input/latex.tex}
+\chapter{Introduction To Project}
+\input{input/project-preview.tex}
+\chapter{Requirements and Analysis}
+\input{input/req-n-ana.tex}
+\chapter{Technologies Used}
+\input{input/techno-used.tex}
+\chapter{Design}
+\input{input/design.tex}
+\chapter{Implementation}
+\input{input/implement.tex}
+\chapter{Prject Legacy}
+\input{input/legacy.tex}
+\input{input/bibliography.tex}
+\end{document}
+
