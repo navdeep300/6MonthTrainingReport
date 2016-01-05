@@ -1,0 +1,168 @@
+\section{Introduction to PHP}
+\input {input/php-intro.tex}
+\section{MySQL Database Server}
+\input {input/mysql.tex}
+\section{Introduction to Bootstrap} 
+
+\input {input/bootstrap-intro.tex}
+\section{Introduction to Apache Web Server}
+
+\input {input/apache.tex}
+\section{Introduction To Github}
+\input {input/git.tex}
+
+%\section{Debconf}
+%\input {input/debconf.tex}
+
+\section{Introduction to \LaTeX}
+\input{input/latex.tex}
+
+\section{Introduction to Doxygen}
+\input {input/doxygen.tex}
+\newpage
+\section{Implementation}
+Implementation is the process of converting a new or revised system 
+design into an operational one. At the present time there is no system 
+as Imperial Finance which work online and provide information via web.
+So this is the replacement of the manual financial system. In Imperial 
+Finance most of the finance related task will be performed online.\\
+
+{\bf Types of Implementation:}
+\begin{enumerate}
+\item Implementation of a computer system to replace a manual system.
+\item Implementation of a new computer system to replace an existing one.
+\item Implementation of a modified application to replace an existing one.\\
+\end{enumerate} 
+
+\hspace{0.0cm} {\bf Aspects of Implementation:}
+\begin{enumerate}
+\item Conversion
+\item Post Implementation and review
+\item Software maintenance
+\end{enumerate}
+\vskip 0.5cm
+\subsection{Implementation of the Project }
+Elearning System is the implementation of the new system to replace manual one. Working manually is very time consuming and irritating. The project 
+implementation of starts with the Administrator. Administrator will be the super user of the application who will configure system information. There will be a different interface for the Students and Teachers from where they can manage and view the required information.\\
+
+\noindent It is a web based application, so it is distributed and data centric. 
+In this application, MySQL database is used to store data related to 
+Students and Teachers. Since database is on 
+Server, so any number of users can work simultaneously and can share 
+their data with each other.
+\subsection{Conversion Plan}
+Conversion is the process of changing from one system to another. This 
+plan involves:
+\begin{enumerate}
+\item Creating computer-compatible files.
+\item Training the operating staff.
+\item Installing terminals and hardware.
+\end{enumerate}
+
+\subsection{Conversion Processes}
+\begin{enumerate}
+\item File Conversion.
+\item  Data Entry.
+\item User Training.
+\end{enumerate}
+\vskip 0.5cm
+\subsection{Elements of User training}
+\begin{enumerate}
+\item The initial training period.
+\item At the time of Installation.
+\item If required, during Maintenance Phase.
+\end{enumerate}
+
+\section{Post-Implementation and Software Maintenance}
+Implementation review is an evaluation of a system in terms of the 
+extent to which the system accomplishes stated objectives and actual 
+project costs exceeds initial estimates.
+\subsection{Review Plan}
+An overall plan covers following aspects:
+\begin{enumerate}
+\item Administrative plan.
+\item Personnel requirements plan.
+\item Hardware plan.
+\item Documentation review plan.
+\end{enumerate}
+\vskip 0.5cm
+After the implementation of this project, the team will see the post 
+implementation phase. If there will be any concerns, those will be 
+solved based on the user feedback.
+\subsection{Maintenance}
+In order for a software system to remain useful in its environment it 
+may be necessary to carry out a wide range of maintenance activities 
+upon it. There are bugs to fix, enhancement to add and optimization to 
+make, changes has to be done in older version to make it application 
+for current use of current version to cater the need of future. 
+Maintenance can be of three types:\\
+\begin{enumerate}
+\item {\bf{Corrective Maintenance}}: Changes necessitated by actual errors 
+(defects or residual "bugs") in a system are termed corrective 
+maintenance. These defects manifest themselves when the system does not
+operate as it was designed or advertised to do. A defect or “bug” can 
+result from design errors, logic errors and coding errors. Design errors 
+occur when for example changes made to the software are incorrect, 
+incomplete, wrongly communicated or the change request misunderstood. 
+In the event of a system failure due to an error, actions are taken to 
+restore operation of the software system. The approach here is to locate 
+the original specifications in order to determine what the system was 
+originally designed to do.
+\item {\bf{Adaptive Maintenance}}: Any effort that is initiated as a result of 
+changes in the environment in which a software system must operate is 
+termed adaptive change. Adaptive change is a change driven by the need
+to accommodate modifications in the environment of the software system, 
+without which the system would become increasingly less useful until it 
+became obsolete. The term environment in this context refers to all the 
+conditions and influences which act from outside upon the system, for 
+example business rules, government policies, work patterns, software 
+and hardware operating platforms. A change to the whole or part of this 
+environment will warrant a corresponding modification of the software.
+\item {\bf{Perfective Maintenance}}: This is actually the most common type of 
+maintenance encompassing enhancements both to the function and the 
+efficiency of the code and includes all changes, insertions, deletions, 
+modifications, extensions, and enhancements made to a system to meet 
+the evolving and/or expanding needs of the user. A successful piece of 
+software tends to be subjected to a succession of changes resulting in 
+an increase in its requirements. This is based on the premise that as 
+the software becomes useful, the users tend to experiment with new 
+cases beyond the scope for which it was initially developed. Expansion 
+in requirements can take the form of enhancement of existing system 
+functionality or improvement in computational efficiency. Though 
+efforts have been made to develop error free systems, but no system is 
+perfect, room for improvement is always there. Thus proper documentation 
+for the system has been done so that it will be easy to handle any 
+breakdown or any other type of system maintenance activity.
+
+\end{enumerate}
+
+\section{Testing}
+Project testing is an investigation conducted to determine the quality of the project and the services provided by the project. Testing is the process of analyzing a project to detect the differences between existing and required conditions (that is defects/errors/bugs) and to evaluate the features of the project. After complete development of the project it is mandatory to test the project. The main motive of the project testing is to identify whether project is able to meet user
+requirements or not. To know the better performance of project we have to develop various Test Cases. Now, designing good test cases is a complex art. The complexity comes from three sources
+\begin{itemize}
+\item Test cases help us discover information. Different types of tests are more effective for different classes of information.
+\item Test cases can be good in a variety of ways. No test case will be good in all of them.
+\item Our tend to create test cases according to certain testing styles, such as domain testing or risk-based testing. Good domain tests are different from good risk-based tests.
+\end{itemize}
+\subsection{Unit Testing}
+Unit testing is undertaken after a module has been coded and successfully reviewed. Unit testing (or module testing) is the testing of different units (or modules) of a system in isolation. I have done unit testing for my project. Before combining all modules i have tested the modules independently, and no errors were reported during testing.
+\subsection{Integration Testing}
+In this type of testing I have used Big Bang Approach, where all the modules
+making up a system are integrated in a single step. In simple words, all the modules of the system are simply put together and tested. However, this technique is practicable only for very small systems. The main problem with this approach is that once an error is found during the integration testing, it is very difficult to localize the error as the error may potentially belong to any of the modules being integrated. Therefore, debugging errors reported during big bang integration testing are very expensive to fix. During this testing no errors were reported and the system worked fine.
+\subsection{System Testing}
+System tests are designed to validate a fully developed system to assure that it meets its requirements. I have performed this testing to the software and all the requirements that were kept in mind before the development of this system are fulfilled. The system as whole worked as expected and also no errors or problems were reported.
+\newpage
+\section{Project Screenshots}
+\image{0.31}{images/home.png}{Home Page}
+\image{0.37}{images/classcalender}{Class Calender}
+\image{0.5}{images/signupstudent.png}{Student Signup}
+\image{0.5}{images/signupteacher.png}{Teacher Signup}
+\image{0.43}{images/studentdashboard.png}{Student Dashboard}
+\image{0.4}{images/teacherdashboard.png}{Teacher Dashboard}
+\image{0.4}{images/addassignment.png}{Add Assignment}
+\image{0.4}{images/submitassignment.png}{Submit Assignment}
+\image{0.5}{images/sendmessage.png}{Send Message}
+\image{0.5}{images/viewprogress.png}{View Progress}
+\image{0.37}{images/admindashboard.png}{Admin Dashboard}
+\image{0.45}{images/addstudent.png}{Add New Student}
+\newpage
