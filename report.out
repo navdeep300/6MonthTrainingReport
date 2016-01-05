@@ -1,0 +1,66 @@
+\BOOKMARK [0][]{chapter.1}{Introduction To Organisation}{}% 1
+\BOOKMARK [1][]{section.1.1}{APTECH Ludhiana}{chapter.1}% 2
+\BOOKMARK [0][]{chapter.2}{Introduction To Project}{}% 3
+\BOOKMARK [1][]{section.2.1}{Overview}{chapter.2}% 4
+\BOOKMARK [1][]{section.2.2}{The Existing System}{chapter.2}% 5
+\BOOKMARK [1][]{section.2.3}{Software Requirement Analysis}{chapter.2}% 6
+\BOOKMARK [2][]{subsection.2.3.1}{Functional Requiremets}{section.2.3}% 7
+\BOOKMARK [2][]{subsection.2.3.2}{Non functional requirements}{section.2.3}% 8
+\BOOKMARK [1][]{section.2.4}{Feasibility Analysis}{chapter.2}% 9
+\BOOKMARK [1][]{section.2.5}{Objectives Of Project}{chapter.2}% 10
+\BOOKMARK [0][]{chapter.3}{Product Design}{}% 11
+\BOOKMARK [1][]{section.3.1}{Product Perspective}{chapter.3}% 12
+\BOOKMARK [1][]{section.3.2}{Product Functions}{chapter.3}% 13
+\BOOKMARK [1][]{section.3.3}{User Characteristics}{chapter.3}% 14
+\BOOKMARK [1][]{section.3.4}{Constraints}{chapter.3}% 15
+\BOOKMARK [1][]{section.3.5}{System Design}{chapter.3}% 16
+\BOOKMARK [1][]{section.3.6}{Design Notations}{chapter.3}% 17
+\BOOKMARK [1][]{section.3.7}{Flowchart}{chapter.3}% 18
+\BOOKMARK [1][]{section.3.8}{Database Design}{chapter.3}% 19
+\BOOKMARK [1][]{section.3.9}{Assumptions and Dependencies}{chapter.3}% 20
+\BOOKMARK [2][]{subsection.3.9.1}{Assumptions}{section.3.9}% 21
+\BOOKMARK [2][]{subsection.3.9.2}{Dependencies}{section.3.9}% 22
+\BOOKMARK [0][]{chapter.4}{Development and Implementation}{}% 23
+\BOOKMARK [1][]{section.4.1}{Introduction to PHP}{chapter.4}% 24
+\BOOKMARK [2][]{subsection.4.1.1}{Features of PHP}{section.4.1}% 25
+\BOOKMARK [1][]{section.4.2}{MySQL Database Server}{chapter.4}% 26
+\BOOKMARK [2][]{subsection.4.2.1}{Features of MySQL}{section.4.2}% 27
+\BOOKMARK [2][]{subsection.4.2.2}{Installation of MySQL}{section.4.2}% 28
+\BOOKMARK [1][]{section.4.3}{Introduction to Bootstrap}{chapter.4}% 29
+\BOOKMARK [2][]{subsection.4.3.1}{What is Bootstrap}{section.4.3}% 30
+\BOOKMARK [2][]{subsection.4.3.2}{Advantages of Bootstrap}{section.4.3}% 31
+\BOOKMARK [2][]{subsection.4.3.3}{Installation of Bootstrap}{section.4.3}% 32
+\BOOKMARK [1][]{section.4.4}{Introduction to Apache Web Server}{chapter.4}% 33
+\BOOKMARK [2][]{subsection.4.4.1}{Features of Apache Server}{section.4.4}% 34
+\BOOKMARK [2][]{subsection.4.4.2}{Installation of Apache Server}{section.4.4}% 35
+\BOOKMARK [1][]{section.4.5}{Introduction To Github}{chapter.4}% 36
+\BOOKMARK [1][]{section.4.6}{What is Git?}{chapter.4}% 37
+\BOOKMARK [2][]{subsection.4.6.1}{Installation of Git}{section.4.6}% 38
+\BOOKMARK [2][]{subsection.4.6.2}{Various Git Commands}{section.4.6}% 39
+\BOOKMARK [2][]{section*.1}{Create Repositories}{section.4.6}% 40
+\BOOKMARK [2][]{section*.2}{Make Changes}{section.4.6}% 41
+\BOOKMARK [2][]{section*.3}{Group Changes}{section.4.6}% 42
+\BOOKMARK [1][]{section.4.7}{Introduction to LaTeX}{chapter.4}% 43
+\BOOKMARK [1][]{section.4.8}{Typesetting}{chapter.4}% 44
+\BOOKMARK [2][]{subsection.4.8.1}{Installing LaTeX on System}{section.4.8}% 45
+\BOOKMARK [2][]{subsection.4.8.2}{Graphical Editors for LaTeX}{section.4.8}% 46
+\BOOKMARK [1][]{section.4.9}{Introduction to Doxygen}{chapter.4}% 47
+\BOOKMARK [2][]{subsection.4.9.1}{Features of Doxygen}{section.4.9}% 48
+\BOOKMARK [2][]{subsection.4.9.2}{Installation of Doxygen}{section.4.9}% 49
+\BOOKMARK [1][]{section.4.10}{Implementation}{chapter.4}% 50
+\BOOKMARK [2][]{subsection.4.10.1}{Implementation of the Project }{section.4.10}% 51
+\BOOKMARK [2][]{subsection.4.10.2}{Conversion Plan}{section.4.10}% 52
+\BOOKMARK [2][]{subsection.4.10.3}{Conversion Processes}{section.4.10}% 53
+\BOOKMARK [2][]{subsection.4.10.4}{Elements of User training}{section.4.10}% 54
+\BOOKMARK [1][]{section.4.11}{Post-Implementation and Software Maintenance}{chapter.4}% 55
+\BOOKMARK [2][]{subsection.4.11.1}{Review Plan}{section.4.11}% 56
+\BOOKMARK [2][]{subsection.4.11.2}{Maintenance}{section.4.11}% 57
+\BOOKMARK [1][]{section.4.12}{Testing}{chapter.4}% 58
+\BOOKMARK [2][]{subsection.4.12.1}{Unit Testing}{section.4.12}% 59
+\BOOKMARK [2][]{subsection.4.12.2}{Integration Testing}{section.4.12}% 60
+\BOOKMARK [2][]{subsection.4.12.3}{System Testing}{section.4.12}% 61
+\BOOKMARK [1][]{section.4.13}{Project Screenshots}{chapter.4}% 62
+\BOOKMARK [0][]{chapter.5}{Conclusion and Future Scope}{}% 63
+\BOOKMARK [1][]{section.5.1}{Conclusion}{chapter.5}% 64
+\BOOKMARK [1][]{section.5.2}{Current status}{chapter.5}% 65
+\BOOKMARK [1][]{section.5.3}{Future Scope}{chapter.5}% 66
